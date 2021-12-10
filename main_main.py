@@ -276,7 +276,7 @@ def main():
                 running = True
                 # print('start')
                 res, func_result, print_result = manager.launch()
-                time.sleep(1)
+#                 time.sleep(1)
                 if res=='normal':
                     batch_res = pd.DataFrame(manager.insert_data_df, 
                                             columns=['Момент часу', 'Бортова напруга', 'Запас палива', 
